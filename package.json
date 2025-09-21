@@ -8,9 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "3.12.0",
+    "@react-pdf-viewer/highlight": "^3.12.0",
+    "@react-pdf-viewer/search": "^3.12.0",
+    "@react-pdf-viewer/toolbar": "^3.12.0",
+    "@react-pdf-viewer/zoom": "^3.12.0",
     "@supabase/ssr": "^0.7.0",
     "@supabase/supabase-js": "^2.57.4",
     "next": "15.5.3",
+    "pdfjs-dist": "3.4.120",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -19,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "file-loader": "^6.2.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
